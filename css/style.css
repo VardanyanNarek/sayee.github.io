@@ -1,3 +1,10 @@
+@font-face {
+  font-family: Hanson;
+  src: url(../images/Hanson.otf);
+}
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -9,11 +16,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'hanson', sans-serif;
+    font-family: 'Hanson', sans-serif;
 }
 
 p {
-    font-family: 'hanson', sans-serif;
+    font-family: 'Hanson', sans-serif;
     font-size: 1.25rem;
     line-height: 30px;
     color: #6c757d;
@@ -31,7 +38,7 @@ nav.r-nav {
 }
 
 nav .navbar-brand {
-    font-family: 'hanson', sans-serif;
+    font-family: 'Hanson', sans-serif;
     font-size: 1.875rem;
     color: yellow;
 }
@@ -41,7 +48,7 @@ nav .navbar-nav li a {
     font-size: 1rem;
     letter-spacing: 0.05em;
     font-weight: 600;
-    font-family: 'hanson', sans-serif;
+    font-family: 'Hanson', sans-serif;
 }
 
 nav .navbar-nav li {
@@ -178,7 +185,7 @@ header {
 input[type=text],
 select,
 textarea {
-    font-family: 'hanson', sans-serif;
+    font-family: 'Hanson', sans-serif;
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -190,7 +197,7 @@ textarea {
 }
 
 input[type=submit] {
-    font-family: 'hanson', sans-serif;
+    font-family: 'Hanson', sans-serif;
     background-color: yellow;
     color: black;
     padding: 12px 20px;
@@ -200,12 +207,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    font-family: 'hanson', sans-serif;
+    font-family: 'Hanson', sans-serif;
     background-color: yellowgreen;
 }
 
 .containerform {
-    font-family: 'hanson', sans-serif;
+    font-family: 'Hanson', sans-serif;
     border-radius: 5px;
     background-color: lightgrey;
     padding: 20px;
