@@ -3,7 +3,12 @@
   src: url(../images/Hanson.otf);
 }
 
-
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 * {
     padding: 0;
@@ -279,9 +284,4 @@ html {
     .content-box h1{
         font-size: 2.1rem !important;
     }
-    html, body {
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
-}
 }
